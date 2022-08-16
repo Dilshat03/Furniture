@@ -11,6 +11,7 @@ const Cart = () => {
     const allPrice = product.reduce((acc,el)=>{
         return (el.quantity * el.price) + acc
     },0)
+
     return (
 
         <div className=' container m-auto mt-8'>

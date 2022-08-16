@@ -1,6 +1,6 @@
 const initialState = {
     catalog: [],
-    cart: [],
+    cart:  JSON.parse(localStorage.getItem("product")) || [],
     isLoading:false
 }
 
